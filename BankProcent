@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+ <title>BankProcent</title>
+</head>
+<body>
+    <script>
+        var cymma=prompt('Какую сумму рублей вы хотите вложить(в рублях)?', 10);
+        var procgod=prompt('Под какой процент годовых вы хотите вложить сумму(в процентах)?', 100);
+        var crok=prompt('На какой срок вы хотите вложить сумму(в днях)?', 100);
+        var procdobavkcymm=prompt('Процент будет добовляться к сумме или выводиться на другой счёт?(Добовляться, Выводиться)', 'Выводиться');
+        if ( 'Добовляться' || 'Выводиться' ){
+        alert( 'Доход по вкладу равен '(cymma*crok*procgod/(100 * 365)*crok/30));
+        }else{ 
+        alert( 'Доход по вкладу равен' (cymma*crok*procgod/(100 * 365));
+        }
+    </script>
+</body >
+
+</html >
